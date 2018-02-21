@@ -1,0 +1,49 @@
+/* ----------------- */
+/* -----BUTTONS----- */
+/* ----------------- */
+
+/*-Shared Properties-*/
+
+.bbls-btn:link,
+.bbls-btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.bbls-btn:hover,
+.bbls-btn:active {
+    background-color: #00b1ff;
+}
+
+/*-Outline-*/
+
+.bbls-btn-outline:link,
+.bbls-btn-outline:visited {
+    border: 1px solid #0ff;
+    color: #0ff;
+}
+
+.bbls-btn-outline:hover,
+.bbls-btn-outline:active {
+    border: 1px solid #00b1ff;
+    color: #000;
+}
+
+/*-Filled-*/
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #0ff;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #00b1ff;
+    color: #fff;
+}
